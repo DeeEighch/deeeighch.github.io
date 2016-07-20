@@ -1,10 +1,79 @@
 <html>
 	<head>
+		<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 		<title>Gerutskyi Dmitry's portfolio (test index page)</title>
 		<meta http-equiv="Content-type" content="text/html; charset=windows-utf8">
 	</head>
-	<body>
-		Here i will make some content!))))!))!))<p>
-		Ну а вот наконец-то Русский!
+	<body text="lightblue" bgcolor="darkblue" link="white" vlink="grey">
+		<h1>Here i will make some content!))))!))!))</h1><br>
+		<a target="_self" href="index.html" title="Должна перезагрузить страницу!">Ссылка на эту же страницу</a><br>
+		<u><i><font size = "5" color="magenta"> Bla-bla-bla size = 5 </font></i></u><br>
+		
+		
+			<ul>
+				<li>Element 1
+				<li>Element 2
+				<li>Element 3
+			</ul>
+			<ol>
+				<li>Element 1
+				<li>Element 2
+				<li>Element 3
+			</ol>
+		
+		
+		<div align="center">
+			
+			<form name="form1" action="script/request.php" method="post">
+				<table border="1">
+				<tr>
+					<td>Login:</td>
+					<td><input type="text" name="firstname" value="Dmitry"></td>
+				</tr>
+				<tr>
+					<td>Pass:</td>
+					<td><input type="text" name="pass" value=""></td>
+				</tr>
+
+				<tr>
+					<td>Выберите вариант:</td>
+					<td>	
+						<select name="choise">
+							<option value = "1">Вариант 1
+							<option value = "2">Вариант 2
+							<option value = "3">Вариант 3
+						</select>
+					</td>
+				</tr>
+				<tr><td colspan="2" align="center">Напишите что-нибудь:</td></tr>
+				<tr><td colspan="2" align="center"><textarea name = "message" rows = "10" cols = "15">Сообщение</textarea></td></tr>
+				<tr>
+					<td>Выберите файл:</td>
+					<td><input type = "file" name="path"></td>
+				</tr>
+				<tr><td align="center" colspan="2">
+					<input type = "radio" name="choiseradio" value="1">Вариант 1<br>
+					<input type = "radio" name="choiseradio" value="2">Вариатн 2<br>
+					<input type = "radio" name="choiseradio" value="3">Вариант 3<p>
+					<input type = "checkbox" name="terms" value="yes">Галочка<br>
+					<input type = "button" name="start" value="Начать"> <input type = "submit" value="Отправить">
+				</td></tr>
+				</table>
+			</form>
+			
+			<table border="2" width="30%" height="30%">
+				<tr>
+					<td colspan="2" align="center">(1,1)</td>
+					<td rowspan="2">(1,2)</td>
+				</tr>
+				<tr>
+					<td align="right" valign="top">(2,1)</td>
+					<td valign="bottom">(2,2)</td>
+				</tr>
+			</table>
+			
+		</div>
+		
+		
 	</body>
 </html>
