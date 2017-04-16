@@ -1,79 +1,79 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<link href="favicon.ico" rel="shortcut icon"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<title>Gerutskyi Dmitry's portfolio (test index page)</title>
-		<meta http-equiv="Content-type" content="text/html; charset=windows-utf8">
+		
+		<link href="favicon.ico" rel="shortcut icon"/>
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+		
 	</head>
-	<body text="lightblue" bgcolor="darkblue" link="white" vlink="grey">
-		<h1>Here i will make some content!))))!))!))</h1><br>
-		<a target="_self" href="index.html" title="Должна перезагрузить страницу!">Ссылка на эту же страницу</a><br>
-		<u><i><font size = "5" color="magenta"> Bla-bla-bla size = 5 </font></i></u><br>
-		
-		
-			<ul>
-				<li>Element 1
-				<li>Element 2
-				<li>Element 3
-			</ul>
-			<ol>
-				<li>Element 1
-				<li>Element 2
-				<li>Element 3
-			</ol>
-		
-		
-		<div align="center">
+	<body>
+		<div id="wrapper">
+			<header>
+				<div class="logo-text" align="center">
+					<a href="index.html"><img src="images/text-logo-crop.png" alt="Logo"></a>
+				</div>
+				<!--<div class="header-bg">
+				<img src="images/text-logo-crop.png" alt="Logo">
+					grdima.github.io
+					<form name="search" action="#" method="get">
+						<input type="text" name="q" placeholder="Search"><button type="submit">GO</button>
+					</form>
+				</div>-->
+			</header>
+			<nav>
+				<ul class="top-menu">
+					<li><a href="index.html">ABOUT ME</a></li>
+					<li class="active">PROJECTS</li>
+				</ul>
+			</nav>
 			
-			<form name="form1" action="script/request.php" method="post">
-				<table border="1">
-				<tr>
-					<td>Login:</td>
-					<td><input type="text" name="firstname" value="Dmitry"></td>
-				</tr>
-				<tr>
-					<td>Pass:</td>
-					<td><input type="text" name="pass" value=""></td>
-				</tr>
-
-				<tr>
-					<td>Выберите вариант:</td>
-					<td>	
-						<select name="choise">
-							<option value = "1">Вариант 1
-							<option value = "2">Вариант 2
-							<option value = "3">Вариант 3
-						</select>
-					</td>
-				</tr>
-				<tr><td colspan="2" align="center">Напишите что-нибудь:</td></tr>
-				<tr><td colspan="2" align="center"><textarea name = "message" rows = "10" cols = "15">Сообщение</textarea></td></tr>
-				<tr>
-					<td>Выберите файл:</td>
-					<td><input type = "file" name="path"></td>
-				</tr>
-				<tr><td align="center" colspan="2">
-					<input type = "radio" name="choiseradio" value="1">Вариант 1<br>
-					<input type = "radio" name="choiseradio" value="2">Вариатн 2<br>
-					<input type = "radio" name="choiseradio" value="3">Вариант 3<p>
-					<input type = "checkbox" name="terms" value="yes">Галочка<br>
-					<input type = "button" name="start" value="Начать"> <input type = "submit" value="Отправить">
-				</td></tr>
-				</table>
-			</form>
+			<div id="heading">
+				<h1>PROJECTS</h1>
+			</div>
 			
-			<table border="2" width="30%" height="30%">
-				<tr>
-					<td colspan="2" align="center">(1,1)</td>
-					<td rowspan="2">(1,2)</td>
-				</tr>
-				<tr>
-					<td align="right" valign="top">(2,1)</td>
-					<td valign="bottom">(2,2)</td>
-				</tr>
-			</table>
+			<aside>
+				<nav>
+					<ul class="aside-menu">
+						<li class="active">OpenGL</li>
+						<li><a href="qt.html">Qt</a></li>
+						<li><a href="cpp.html">C++</a></li>
+						<li><a href="android.html">Andriod</a></li>
+					</ul>
+				</nav>
+				
+				<h2>Some AD for you</h2>
+				<p><img src="images/ad_pic.jpg" width="230" height="180" alt="Advertising"></p>
+			</aside>
 			
+			<section>
+				<blockquote>
+					<p>
+						This example of my OpenGL project
+					</p>
+					<cite>OpenGL</cite>
+					
+					
+					
+				</blockquote>
+					<p>Short project description</p>
+					
+					<figure>
+						<img src="images/sample.png" width="320" height="175" alt="">
+					</figure>
+					<figure>
+						<img src="images/sample.png" width="320" height="175" alt="">
+					</figure>
+			
+			</section>
 		</div>
 		
+		<footer>
 		
+		</footer>
+	
 	</body>
 </html>
