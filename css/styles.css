@@ -58,6 +58,11 @@ nav li {
 	color: #fff;
 }
 
+.top-menu li.active a {
+	background: #29c5e6;
+	color: #fff;
+}
+
 .top-menu a {
 	color: #b2b2b2;
 }
