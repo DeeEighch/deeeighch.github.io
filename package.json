@@ -1,7 +1,7 @@
 {
   "name": "deeeighch.github.io",
   "version": "0.1.0",
-  "homepage": "https://deeeighch.github.io/",
+  "homepage": "https://deeeighch.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
